@@ -1,0 +1,39 @@
+{
+  "name": "tendrel758/tot-saas-vanilla-mvc-2025-s1",
+  "description": "Simple PHP MVC & TailwindCSS Application Template",
+  "type": "project",
+  "version": "0.1",
+  "time": "2025-03-19",
+  "keywords": [
+    "mvc",
+    "framework",
+    "vanilla",
+    "demo",
+    "mysql",
+    "mariadb"
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tendrel Tshering",
+      "email": "tendreltshering758@gmail.com",
+      "homepage": "https://github.com/TenDrel758",
+      "role": "Developer"
+    },
+    {
+      "name": "Brad Traversy",
+      "email": "support@traversymedia.com",
+      "homepage": "https://www.traversymedia.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "Framework/",
+      "App\\": "App/"
+    }
+  }
+}
