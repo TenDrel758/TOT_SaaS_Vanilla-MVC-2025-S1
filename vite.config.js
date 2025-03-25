@@ -20,14 +20,14 @@ export default defineConfig({
         usePHP({
             entry: [
                 'index.{html,php}',
-                'public/index.{html,php}',
-                'App/views/**/*.{html,php}'
+                'public/index.{html,php,js}',
+                'App/views/**/*.{html,php,js}'
             ],
         }),
         liveReload([
                 'index.{html,php}',
-                'public/index.{html,php}',
-                'App/views/**/*.{html,php}'
+                'public/index.{html,php,js}',
+                'App/views/**/*.{html,php,js}'
             ],
             {
                 alwaysReload: true
